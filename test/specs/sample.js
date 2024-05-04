@@ -29,7 +29,6 @@ describe("To Do List Scenario", () => {
     const startPoint = 748;
     const endPoint = 210;
 
-    for (let swipeTime = 0; swipeTime < 5; swipeTime++) {
       await browser.performActions([
         {
           type: "pointer",
@@ -44,7 +43,6 @@ describe("To Do List Scenario", () => {
           ],
         },
       ]);
-    }
     await $(
       '//android.widget.CheckBox[@content-desc="Test"]/android.widget.Button'
     ).click();
