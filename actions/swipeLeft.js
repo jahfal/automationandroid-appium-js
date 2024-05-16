@@ -28,4 +28,4 @@ class SwipeLeft {
     }
 }
 
-module.exports = SwipeLeft;
+module.exports = SwipeLeft; 
